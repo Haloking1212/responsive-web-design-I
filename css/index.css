@@ -113,6 +113,8 @@ section{
 section.intro{
     justify-content: space-between;
     align-items:center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
 } 
 section.intro .intro-content{
     display:flex;
@@ -151,6 +153,8 @@ section.main .first div{
 
 section.main .last{
     display:flex;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
 }
 
 section.main{
@@ -161,7 +165,18 @@ section.main{
 footer{
     text-align:center;
 }
+footer h2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+address {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.6rem;
 
+}
 
 
 @media screen and (max-width:800px){
@@ -184,7 +199,16 @@ footer{
     section.intro img{
         display:none;
     }
-
+    footer h2 {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    address {
+        display: flex;
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -213,6 +237,16 @@ footer{
 
     section.main .first, section.main .last{
         flex-wrap:wrap;
+    }
+    footer h2 {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    address {
+        display: flex;
+        justify-content: flex-start;
     }
     
 }
