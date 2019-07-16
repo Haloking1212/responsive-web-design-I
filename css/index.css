@@ -51,6 +51,7 @@ table {
 
 html{
     font-size:62.5%;
+    font-family:'Titillium Web', sans-serif;
 }
 
 h2{
@@ -177,7 +178,11 @@ address {
     font-size: 1.6rem;
 
 }
-
+button {
+    padding: 10px 15px;
+    border: 2px solid black;
+    background-color: transparent;
+}
 
 @media screen and (max-width:800px){
     body{
@@ -208,6 +213,11 @@ address {
     address {
         display: flex;
         justify-content: flex-start;
+    }
+    button {
+        padding: 10px 15px;
+        border: 2px solid black;
+        background-color: transparent;
     }
 }
 
@@ -247,6 +257,11 @@ address {
     address {
         display: flex;
         justify-content: flex-start;
+    }
+    button {
+        border: 2px solid black;
+        padding: 10px 15px;
+        background-color: transparent;
     }
     
 }
